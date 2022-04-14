@@ -6,7 +6,7 @@ public class BMW extends Car{
     }
 
     public void breaksDown(){
-        System.out.println(brand+" "+model+" is breaks down");
+        System.out.println(brand+" "+model+" is breaks down every 100 miles");
     }
 
     public void racing(){
