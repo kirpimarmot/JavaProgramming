@@ -5,7 +5,7 @@ public class Car {
     public int year;
     public double price;
     public String color;
-    private int miles;
+    public int miles;
 
     public Car(String brand, String model, int year, double price, String color, int miles) {
         this.brand = brand;

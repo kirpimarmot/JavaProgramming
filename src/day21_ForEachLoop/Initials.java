@@ -6,9 +6,8 @@ public class Initials {
                 "Ruveyda Durna", "Jonathan Holly", "Alshaun Rodgers", "Manas Kalenov", "Gulsen Sohret"};
 
         for (String each : names) {
-            String initialas = each.charAt(0)+"."+each.charAt(each.indexOf(" ")+1);
-            System.out.println(initialas);
-
+             String initialas = each.charAt(0)+"."+each.charAt(each.indexOf(" ")+1);
+             System.out.println(initialas);
         }
 
 
